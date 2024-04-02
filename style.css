@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'monument';
     src: url(./MonumentExtended-Regular.woff2) format('woff2');    
-    src: url(./MonumentExtended-Ultrabold.woff2) format('woff2');
 }
 
 *{
@@ -43,7 +42,7 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: monument;
+    font-family: 'monument';
     letter-spacing: -1px;
     font-size: 35px;
     position: relative;
