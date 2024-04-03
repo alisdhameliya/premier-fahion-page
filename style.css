@@ -1,6 +1,10 @@
 @font-face {
     font-family: 'monument';
-    src: url(./MonumentExtended-Regular.woff2) format('woff2');    
+    src: url(./fonts/MonumentExtended-Regular.woff2) format('woff2');    
+}
+@font-face {
+    font-family: 'monument';
+    src: url(./fonts/MonumentExtended-Ultrabold.woff2) format('woff2');    
 }
 
 *{
@@ -45,12 +49,13 @@ html,body{
     font-family: 'monument';
     letter-spacing: -1px;
     font-size: 35px;
+    font-weight: 900;
     position: relative;
 }
 
 #nav h1::after {
     content: "©";
-    font-family: monument;
+    font-family: gilroy;
     font-weight: 600;
     font-size: 18px;
     position: absolute;
